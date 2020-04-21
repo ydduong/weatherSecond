@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorLvShe">#02f802</color>
+    <color name="colorHuangShe">#f8f802</color>
+    <color name="colorBlue">#1ea9f4</color>
+    <color name="colorBaiShe">#fafafa</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#cc0202</color>
+    <color name="colorYellow">#ff8b02</color>
+    <color name="colorGreen">#679a02</color>
+    <color name="colorhui">#f3eee8</color>
+    <color name="colorbreak">#050506</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorHuangShe">
+    <!--上半部分，详细显示信息：-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/colorBlue">
+
+        <!--左边-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/showDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today,May 17"
+                android:textSize="26sp"
+                android:textColor="@color/colorBaiShe"/>
+            <TextView
+                android:id="@+id/showMaxC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26°"
+                android:textSize="72sp"
+                android:textColor="@color/colorBaiShe"/>
+
+            <TextView
+                android:id="@+id/showMinC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 14°"
+                android:textColor="@color/colorBaiShe"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <!--右边-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/weather_picture"
+                android:layout_width="180dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sfasf"
+                />
+            <TextView
+                android:id="@+id/showWeather"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Clouds"
+                android:textSize="32sp"
+                android:textColor="@color/colorBaiShe"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/showDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today,May 17"
+        android:textSize="26sp" />
+    <!--中间部分，详细显示信息：-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--左边-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/showMaxC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26°"
+                android:textSize="81sp" />
+
+            <TextView
+                android:id="@+id/showMinC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 14°"
+                android:textSize="64sp" />
+
+        </LinearLayout>
+
+        <!--右边-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/show_weather_picture"
+                android:layout_width="180dp"
+                android:layout_height="145dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sfasf"
+                />
+            <TextView
+                android:id="@+id/showWeatherMain"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Clouds"
+                android:textSize="32sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--下部分：-->
+    <TextView
+        android:id="@+id/showHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity: 78%"
+        android:textSize="26sp" />
+    <TextView
+        android:id="@+id/showPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure: 1018 hPa"
+        android:textSize="26sp" />
+    <TextView
+        android:id="@+id/showWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind: 3km/h SE"
+        android:textSize="26sp" />
+
+</LinearLayout>

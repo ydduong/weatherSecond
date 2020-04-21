@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorBaiShe"
+    android:layout_gravity="center">
+
+    <TextView
+
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="  Location"
+        android:textSize="26dp"
+        android:textColor="@color/colorbreak"        />
+    <EditText
+        android:id="@+id/edit_cityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="beijing"
+        android:textColor="@color/colorbreak"/>
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/colorBaiShe"
+        android:text="YES"
+        android:textSize="22dp"
+        android:textColor="@color/colorbreak"/>
+
+</LinearLayout>

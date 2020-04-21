@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--第一栏-->
+    <LinearLayout
+        android:id="@+id/setting_location"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/setting_location_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Changsha"/>
+    </LinearLayout>
+
+    <!--第二栏-->
+    <LinearLayout
+        android:id="@+id/setting_temp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature Units"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/setting_temp_ways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Centigrade"/>
+    </LinearLayout>
+
+    <!--第三栏-->
+    <LinearLayout
+        android:id="@+id/Setting_Notifications"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weat Notifications"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/Setting_Notifications_able"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+</LinearLayout>
